@@ -12,6 +12,7 @@ import mindustry.world.blocks.storage.*;
 
 public class CAPlugin extends Plugin{
 
+    @Override
     public void init(){
 
         Vars.netServer.admins.addChatFilter((player, text) -> text.replace("raped", "#####"));
