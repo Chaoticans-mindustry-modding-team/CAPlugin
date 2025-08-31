@@ -15,7 +15,8 @@ public class CAPlugin extends Plugin{
     @Override
     public void init(){
         
-        Vars.netServer.admins.addChatFilter((player, text) -> text.replace("raped", "Censored(R)"));
+        Vars.netServer.admins.addChatFilter((player, text) -> text.replace("raped", "Censored(Rd)"));
+        Vars.netServer.admins.addChatFilter((player, text) -> text.replace("rape", "Censored(R)"));
     }
 
 }
