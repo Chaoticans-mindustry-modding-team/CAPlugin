@@ -1,7 +1,7 @@
 {
   "name": "CAPlugin",
   "author": "The Chaotican's",
-  "main": "caplugin/CaPlugin",
+  "main": "caplugin/CAPlugin",
   "description": "A plugin for CA",
   "version": 1.0
 }
