@@ -14,7 +14,7 @@ public class CAPlugin extends Plugin{
 
     public void init(){
 
-        Vars.netServer.admins.addChatFilter((player, text) -> text.replace("heck", "h*ck"));
+        Vars.netServer.admins.addChatFilter((player, text) -> text.replace("raped", "#####"));
 
     }
 
