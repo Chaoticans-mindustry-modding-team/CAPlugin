@@ -1,4 +1,4 @@
-package example;
+package caplugin;
 
 import arc.*;
 import arc.util.*;
